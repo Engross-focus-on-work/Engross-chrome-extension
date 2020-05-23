@@ -132,7 +132,7 @@ function funNoBtn(event){
     console.log(event.target);
     masking.classList.add("hidden");
     dgBox.classList.add("hidden");
-    //document.querySelector(".textBox").value = "Need more time to finsh it?"
+    //document.querySelector(".textBox").value = "No more time to finsh it?"
 
 }
 
