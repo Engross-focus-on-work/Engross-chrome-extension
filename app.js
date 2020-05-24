@@ -33,15 +33,15 @@ noBtn.addEventListener("click", funNoBtn);
 customOkBtn.addEventListener("click", funCstmOkBtn);
 //Functions
 let time = 0;
-backColor = "green";
+backColor = " #ffa500";
 
 function funtThirtyMin(event){
     
     time=event.target.value;
     thirtyMin.style.background =  backColor;
-    frtyFiveMin.style.background =  "#EE9644";
-    oneHr.style.background =  "#EE9644";
-    customBtn.style.background =  "#EE9644";
+    frtyFiveMin.style.background =  "";
+    oneHr.style.background =  "";
+    customBtn.style.background =  "";
 
     console.log(time);
 
@@ -51,17 +51,17 @@ function funtThirtyMin(event){
 function funtFrtyFiveMin(event){
     time=event.target.value;
     frtyFiveMin.style.background =  backColor;
-    thirtyMin.style.background =  "#EE9644";
-    oneHr.style.background =  "#EE9644";
-    customBtn.style.background =  "#EE9644";
+    thirtyMin.style.background =  "";
+    oneHr.style.background =  "";
+    customBtn.style.background =  "";
 }
 
 function funtOneHr(event){
     time=event.target.value;
     oneHr.style.background =  backColor;
-    frtyFiveMin.style.background =  "#EE9644";
-    thirtyMin.style.background =  "#EE9644";
-    customBtn.style.background =  "#EE9644";
+    frtyFiveMin.style.background =  "";
+    thirtyMin.style.background =  "";
+    customBtn.style.background =  "";
 
     console.log(time);
 }
